@@ -14,9 +14,14 @@ a {
 .custom-font {
   font-size: 28px;
   font-weight: bold;
-  padding-bottom: 2rem;
-  margin-top: 5rem;
+  /* padding-bottom: 7rem;
+  margin-top: 5rem; */
 }
+.esteemd-main {
+  padding-bottom: 1rem;
+  margin-top: 8rem;
+}
+
 .navbar {
   min-height: 70px;
   position: fixed;
@@ -27,6 +32,9 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+}
+.descr-div {
+  margin-top: 1rem;
 }
 .nav-menu {
   display: flex;
@@ -153,8 +161,17 @@ a {
   right: 0%;
   margin: auto;
   text-align: center;
-  bottom: -30%;
-  padding-bottom: 20px;
+  bottom: -59%;
+  padding-bottom: 3rem;
+}
+.main-own3 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  text-align: center;
+  bottom: -59%;
+  padding-bottom: 3rem;
 }
 .main-own2 {
   position: absolute;
@@ -162,7 +179,7 @@ a {
   right: 0%;
   margin: auto;
   text-align: center;
-  bottom: -30%;
+  bottom: -38%;
   padding-bottom: 20px;
 }
 .footer-blank {
@@ -229,7 +246,17 @@ a {
 .outer-font {
   font-size: 16px;
   color: #717274;
-  padding-bottom: 20px;
+  /* padding-bottom: 4rem; */
+}
+.video-font {
+  padding-bottom: 3rem;
+  margin-top: 4rem;
+}
+.anpr-font {
+  padding-bottom: 3rem;
+}
+.uses-cases-font {
+  padding-bottom: 4rem;
 }
 .footer-outer {
   max-width: 195px;
@@ -276,7 +303,8 @@ a {
 
 .main-footer {
   background-color: #1a1a1a;
-  margin: 2rem;
+  padding: 50px;
+  margin-top: 3rem;
 }
 .contact-main {
   font-size: 18px;
@@ -289,6 +317,7 @@ a {
 .cronj-innerfooter {
   text-align: center;
   padding: 20px;
+  padding-bottom: 2rem;
 }
 .main-footergrid {
   display: grid;
@@ -340,13 +369,17 @@ a {
 }
 .other-touch-p {
   color: #ffffff;
+  /* margin-top: 2rem; */
 }
 .inner-serv {
   background-color: #f6f9fe;
+  padding: 50px;
 }
 .other-touch-p-one {
   color: #ffffff;
   max-width: 542px;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 .sector-image {
   width: 90px;
@@ -490,6 +523,15 @@ a {
     margin: 2rem;
     text-align: center;
   }
+  .main-own1 {
+    bottom: -53%;
+  }
+  .main-own2 {
+    bottom: -33%;
+  }
+  .main-own3 {
+    bottom: -48%;
+  }
 }
 @media (max-width: 768px) {
   .main-manag {
@@ -539,11 +581,18 @@ a {
     position: absolute;
     top: -24%;
   }
-  .main-own2 {
-    bottom: -21%;
-  }
+
   .double-cources {
     top: -30%;
+  }
+  .main-own1 {
+    bottom: -44%;
+  }
+  .main-own2 {
+    bottom: -26%;
+  }
+  .main-own3 {
+    bottom: -41%;
   }
 
   .nav-item {
@@ -601,6 +650,16 @@ a {
   }
   .main-manag {
     display: block;
+  }
+  .main-own3 {
+    display: none;
+  }
+  .inner-manag {
+    margin: 1rem 0rem;
+  }
+  .other-touch-p-one {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
   }
   .other-main-manag {
     display: block;
@@ -683,6 +742,9 @@ a {
   }
   .main-idea2 {
     padding: 54px;
+  }
+  .main-own3 {
+    display: none;
   }
   .main-manag {
     display: block;
