@@ -75,7 +75,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .mobile-image1 {
@@ -88,21 +88,21 @@ a {
   padding: 100px;
   background-color: #f2f6fd;
   border-radius: 25px;
-  margin: 5rem;
+  margin: 7rem;
 }
 .main-idea {
   position: relative;
   padding: 100px;
   background-color: #6a82f4;
   border-radius: 30px;
-  margin: 5rem;
+  margin: 7rem;
 }
 .main-idea2 {
   position: relative;
   padding: 100px;
   background-color: #f2f6fd;
   border-radius: 25px;
-  margin: 5rem;
+  margin: 7rem;
 }
 
 .double-course {
@@ -147,9 +147,9 @@ a {
   font-weight: bold;
   padding-bottom: 2rem;
 }
-.first-footer {
+/* .first-footer {
   padding: 30px;
-}
+} */
 .ident-p1 {
   color: #1a1a1a;
   font-weight: bold;
@@ -161,7 +161,7 @@ a {
   right: 0%;
   margin: auto;
   text-align: center;
-  bottom: -59%;
+  bottom: -55%;
   padding-bottom: 3rem;
 }
 .main-own3 {
@@ -543,6 +543,9 @@ a {
   .nav-link {
     color: #0000d1;
   }
+  .blankdiv1 {
+    display: none;
+  }
   .main-world {
     grid-template-columns: 2fr 2fr;
   }
@@ -575,22 +578,22 @@ a {
     z-index: 1;
   }
   .double-course {
-    top: -34%;
+    top: -29%;
   }
   .double-cours {
-    position: absolute;
-    top: -24%;
+    top: -21%;
   }
 
   .double-cources {
     top: -30%;
   }
   .main-own1 {
-    bottom: -44%;
+    bottom: -40%;
   }
   .main-own2 {
-    bottom: -26%;
+    bottom: -24%;
   }
+
   .main-own3 {
     bottom: -41%;
   }
@@ -640,6 +643,21 @@ a {
   .footer-phone1 {
     justify-content: center;
   }
+  .mobile-image1 {
+    margin: 0rem 0rem;
+  }
+  .mobile-image2 {
+    margin: 0rem 0rem;
+  }
+  .mobile-image3 {
+    margin: 0rem 0rem;
+  }
+  .mobile-image4 {
+    margin: 0rem 0rem;
+  }
+  .mobile-image5 {
+    margin: 0rem 0rem;
+  }
 }
 @media (max-width: 500px) and (min-width: 375px) {
   .main-world {
@@ -648,11 +666,32 @@ a {
   .main-sector {
     display: block;
   }
+  .diff-mobileimage {
+    display: block;
+    padding-bottom: 4rem;
+  }
+  .anpr-font {
+    margin-top: 40rem;
+  }
+  .mobile-image1 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image2 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image3 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image4 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image5 {
+    margin: 2rem 0rem;
+  }
   .main-manag {
     display: block;
   }
   .main-own3 {
-    display: none;
   }
   .inner-manag {
     margin: 1rem 0rem;
@@ -665,6 +704,7 @@ a {
     display: block;
   }
   .main-ideas {
+    margin: 5rem 0rem;
     padding: 48px;
   }
   .main-idea {
@@ -693,19 +733,20 @@ a {
     display: none;
   }
   .main-own1 {
-    display: none;
+    bottom: -71%;
   }
   .main-own2 {
-    display: none;
+    bottom: -43%;
   }
-  .main-ideas {
-    margin: 1rem 0rem;
+  .main-own3 {
+    bottom: -60%;
   }
+
   .main-idea {
-    margin: 1rem 0rem;
+    margin: 5rem 0rem;
   }
   .main-idea2 {
-    margin: 1rem 0rem;
+    margin: 5rem 0rem;
   }
   .bar {
     width: 17px;
@@ -736,6 +777,7 @@ a {
   }
   .main-ideas {
     padding: 48px;
+    /* margin: 5rem 0rem; */
   }
   .main-idea {
     padding: 38px;
@@ -744,7 +786,6 @@ a {
     padding: 54px;
   }
   .main-own3 {
-    display: none;
   }
   .main-manag {
     display: block;
@@ -785,22 +826,52 @@ a {
     display: none;
   }
   .main-own1 {
-    display: none;
+    bottom: -64%;
   }
   .main-own2 {
-    display: none;
   }
   .main-ideas {
-    margin: 1rem 0rem;
+    margin: 5rem 0rem;
   }
-  .main-idea {
-    margin: 1rem 0rem;
-  }
-  .main-idea2 {
-    margin: 1rem 0rem;
-  }
+
   .environt-work {
     font-size: 17px;
     text-align: center;
+  }
+  .diff-mobileimage {
+    display: block;
+    padding-bottom: 4rem;
+  }
+  .mobile-image1 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image2 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image3 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image4 {
+    margin: 2rem 0rem;
+  }
+  .mobile-image5 {
+    margin: 2rem 0rem;
+  }
+  .esteemd-main {
+    padding-bottom: 1rem;
+    margin-top: 40rem;
+  }
+  .main-own2 {
+    bottom: -43%;
+  }
+  .main-own3 {
+    bottom: -60%;
+  }
+
+  .main-idea {
+    margin: 5rem 0rem;
+  }
+  .main-idea2 {
+    margin: 5rem 0rem;
   }
 }
